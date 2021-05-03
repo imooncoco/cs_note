@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure--9nc-^nh4kv2i(
 
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['aprkmsboard.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
